@@ -12,7 +12,7 @@ I started with HTML to get the basic structure going. I then used CSS to recreat
 This is a screenshot of the finished project: https://imgur.com/rKrHpBR
 
 ## Live Site: 
-https://hollis-walden.github.io/YouTube-clone/
+View live site here: https://hollis-walden.github.io/YouTube-clone/
 
 ## Built with
 *HTML5
