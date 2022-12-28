@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Youtube Clone with HTML & CSS</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+        </div>
+        
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+        
+        <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </header>
+
+    <!-- side bar menu-->
+    <main>
+        <div class=”side-bar”>
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+
+                <a class="nav-link">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </a>
+
+                <a class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+                <hr>
+
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+            </div>  
+        </div>
+
+        <!--Video Content-->      
+        <div class="content">
+            <div class="videos">
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/food-diary2.jpeg" alt="a smiling man" />
+                    </div>
+ 
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=1n2e7sVL5NI" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Everything I Eat in A Day | Dr. Mike
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=1n2e7sVL5NI">
+                                Harper's BAZAAR
+                            </a>
+                            <span> 1.5M Views • 2 Months Ago </span>
+                        </div>
+                    </div>
+ 
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/self-love.jpeg" alt="a man sits with crossed legs" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=vj0JDwQLof4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                10 min Guided Meditation: Self Love | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=vj0JDwQLof4">
+                                SELF
+                            </a>
+                            <span> 21K Views • 8  Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/freediver.jpeg" alt="a man and woman competing in archery" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=B10XSx2-2v4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How A Freediver's Routine Helps Her Hold Her Breath For 4 Minutes | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=B10XSx2-2v4">
+                                SELF
+                            </a>
+                            <span> 8.9K Views • 5 Months Ago </span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/golf.jpeg" alt="a woman swims in the ocean" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=Pi6Setxrrig" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Golfers Try to Keep Up With Pro Archers | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=Pi6Setxrrig">
+                                SELF
+                            </a>
+                            <span> 5.6K Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/weights.jpeg" alt="a woman lifts heavy weights" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=NdCs0yOAzYU" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How WWE Superstar Bianca Belair Stays Ready For The Ring | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=NdCs0yOAzYU">
+                                SELF
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/Mila.jpeg" alt="" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=v5A92I_LdU4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Introverts & Content Creation | Sumudu Siriwardana
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=v5A92I_LdU4">
+                                Francesco Ciulla
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/parkour.jpeg" alt="a mother does parkour" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=WFZfqXbrGh0" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How A Mom Trains For Parkour 6 Days A Week | SELF
+                            </h3>
+                            <a href="">
+                                SELF
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/food-diary.jpeg" alt="a smiling man" />
+                    </div>
+           
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=h847XRovQGY" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Everything I Eat in A Day | Antoni Porowski
+                            </h3>
+                            <a href="">
+                                Harper's BAZAAR
+                            </a>
+                            <span>1.1M Views • 11 Months Ago </span>
+                        </div>
+                    </div>
+           
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/food-diary2.jpeg" alt="a smiling man" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=1n2e7sVL5NI" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Everything I Eat in A Day | Dr. Mike
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=1n2e7sVL5NI">
+                                Harper's BAZAAR
+                            </a>
+                            <span> 1.5M Views • 2 Months Ago </span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/self-love.jpeg" alt="a man sits with crossed legs" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=vj0JDwQLof4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                10 min Guided Meditation: Self Love | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=vj0JDwQLof4">
+                                SELF
+                            </a>
+                            <span> 21K Views • 8 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/freediver.jpeg" alt="a woman and man competing in archery" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=B10XSx2-2v4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How A Freediver's Routine Helps Her Hold Her Breath For 4 Minutes | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=B10XSx2-2v4">
+                                SELF
+                            </a>
+                            <span> 8.9K Views • 5 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/golf.jpeg" alt="a woman and man compete in archery" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=Pi6Setxrrig" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Golfers Try to Keep Up With Pro Archers | SELF
+                            </h3>
+                            <a href="">
+                                SELF
+                            </a>
+                            <span> 5.6K Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/weights.jpeg" alt="a woman lifts heavy weights" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=NdCs0yOAzYU" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How WWE Superstar Bianca Belair Stays Ready For The Ring | SELF
+                            </h3>
+                            <a href="https://www.youtube.com/watch?v=NdCs0yOAzYU">
+                                SELF
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/Mila.jpeg" alt="a smiling woman" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=v5A92I_LdU4" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Introverts & Content Creation | Sumudu Siriwardana
+                            </h3>
+                            <a href="">
+                                Francesco Ciulla
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/parkour.jpeg" alt="a mother does parkour" />
+                    </div>
+             
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=WFZfqXbrGh0" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How A Mom Trains For Parkour 6 Days A Week | SELF
+                            </h3>
+                            <a href="">
+                                SELF
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                    </div>
+             
+                </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/food-diary.jpeg" alt="a smiling man" />
+                    </div>
+           
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://www.youtube.com/watch?v=h847XRovQGY" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Everything I Eat in A Day | Antoni Porowski
+                            </h3>
+                            <a href="">
+                                Harper's BAZAAR
+                            </a>
+                            <span>1.1M Views • 11 Months Ago </span>
+                        </div>
+                    </div>
+           
+                </div>
+                <!-- a video Ends -->
+                
+            </div>
+        </div>
+    </main>
+  <!-- Main Body Ends -->
+</body>
+</html>
